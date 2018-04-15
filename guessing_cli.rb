@@ -6,7 +6,7 @@ def run_guessing_game
   #comp_input = rand(1..6)
   while user_input
     puts "Guess a number between 1 and 6."
-    #user_input = gets.chomp
+    user_input = gets.chomp
     comp_input = rand(1..6)
     binding.pry
       if user_input.to_i == comp_input
