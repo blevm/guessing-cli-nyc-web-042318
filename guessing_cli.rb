@@ -8,7 +8,7 @@ def run_guessing_game
   while user_input
     puts "Guess a number between 1 and 6."
     user_input = gets.chomp
-    
+
     #binding.pry
     if user_input.downcase == "exit"
       puts "Goodbye!"
