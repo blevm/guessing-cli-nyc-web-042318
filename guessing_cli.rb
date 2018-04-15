@@ -3,8 +3,6 @@ require "pry"
 
 def run_guessing_game
 
-  user_input = ""
-  #comp_input = rand(1..6)
   loop do
     puts "Guess a number between 1 and 6."
     user_input = gets.chomp
