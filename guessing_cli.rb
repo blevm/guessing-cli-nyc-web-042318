@@ -14,7 +14,7 @@ def run_guessing_game
       puts "Goodbye!"
       break
     else
-      if user_input == comp_input
+      if user_input.to_i == comp_input.to_i
         puts "You guessed the correct number!"
         break
       else
