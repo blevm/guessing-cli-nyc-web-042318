@@ -14,11 +14,11 @@ def run_guessing_game
     else
       if user_input.to_i == comp_input
         puts "You guessed the correct number!"
-        break
+        user_input = "exit"
       else
         puts "The computer guessed #{comp_input}."
       end
     end
   end
-        #binding.pry
+
 end
