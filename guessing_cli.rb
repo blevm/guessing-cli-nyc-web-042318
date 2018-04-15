@@ -11,9 +11,9 @@ def run_guessing_game
       if user_input.to_i == comp_input
         puts "You guessed the correct number!"
         return "You guessed the correct number!"
-      elsif user_input.downcase == "exit"
-        puts "Goodbye!"
-        return "Goodbye!"
+      #elsif user_input.downcase == "exit"
+      #  puts "Goodbye!"
+    #    return "Goodbye!"
       else
         "The computer guessed #{comp_input}."
       end
