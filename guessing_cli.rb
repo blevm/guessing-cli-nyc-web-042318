@@ -2,7 +2,7 @@
 require "pry"
 
 def run_guessing_game
-  
+
   user_input = ""
   #comp_input = rand(1..6)
   loop do
